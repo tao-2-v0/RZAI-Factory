@@ -9,7 +9,7 @@ lora_target: all
 
 ### dataset
 dataset: ccss-m-3.0
-template: llama3.1
+template: llama3
 cutoff_len: 12288
 max_samples: 10000
 overwrite_cache: true

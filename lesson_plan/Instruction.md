@@ -14,9 +14,17 @@ pip install -e ".[torch,metrics]"
 Extra dependencies available: torch, torch-npu, metrics, deepspeed, bitsandbytes, hqq, eetq, gptq, awq, aqlm, vllm, galore, badam, qwen, modelscope, quality
 
 > [!TIP]
+> Use `pip install --upgrade torch torchvision` to resolve RuntimeError: "triu_tril_cuda_template" not implemented for 'BFloat16'.
 > Use `pip install --no-deps -e .` to resolve package conflicts.
 
 ### Quickstart
+
+Logging
+
+```bash
+pip install --upgrade huggingface_hub
+huggingface-cli login
+```
 
 Use the following 3 commands to run LoRA **fine-tuning**, **inference** and **merging** of the Llama3-8B-Instruct model, respectively.
 
