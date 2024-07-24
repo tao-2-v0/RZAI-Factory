@@ -7,7 +7,7 @@
 
 ```bash
 git clone --depth 1 https://github.com/tao-2-v0/RZAI-Factory.git
-cd RZAI-Factory.git
+cd RZAI-Factory
 pip install -e ".[torch,metrics]"
 ```
 
